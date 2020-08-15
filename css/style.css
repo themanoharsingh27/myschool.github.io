@@ -1,0 +1,250 @@
+html {
+	scroll-behavior: smooth;
+}
+
+*{ margin: 0; padding: 0; box-sizing: border-box;
+	
+
+}
+
+a{ 
+text-decoration: none; }
+
+a:hover{ text-decoration: none;
+ }
+
+ p {
+ 	font-size: 1.5rem;
+ 	line-height: 1.6;
+ 	font-weight: bold;
+ 	color: white;
+ }
+
+
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgb(0, 168,255,0.3),rgb(0, 168,255,0.3)), url('../images/img1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+	clip-path: polygon(100% 0%,100% 75%, 50% 100%, 0% 75%, 0 0);
+	position: relative;
+}
+/*  */
+
+
+.navbar:before {
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	opacity: 0.3%;
+	z-index: -1;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.headersec{ 
+
+	width: 100%;
+	height: 100vh;
+	/* color: white; */
+	text-align: center;
+	position: relative;
+
+
+ }
+ .headerdiv {
+ 	width: 100%;
+ 	height: auto;
+ 	position: absolute;
+ 	top: 20%;
+ }
+ .header-buttons a{
+ 	border: 2px solid white;
+ 	border-radius: 100px;
+ 	margin: 0px 5px;
+ 	font-weight: bold;
+ 	color: white;
+ 	line-height: 15px;
+ 	padding: 12px;
+ }
+
+  .header-buttons a:hover{
+  	color:  	#00ffff;
+  	background-color: white;
+  	text-decoration: none;
+  }
+  .headerdiv h1{
+  	color: rgb(242, 242, 242) !important;
+  }
+
+.schoolbg{
+
+	margin-top: 100px ;
+}
+.adc p{
+	color: black;
+	font-size: 15px;
+
+}
+.headerextra{
+	background-color: #f7f7f9;
+	padding: 50px;
+	margin: 50px;
+
+}
+.schoolpg {
+	margin: 50px;
+}
+.schoolpg h1{
+	size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.names h1{
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.navbar button {
+	color :  red;
+	border: 2px solid black;
+}
+
+
+.galleryimg img{
+	width: 350px;
+	height: 400px;
+	margin: 10px 50px ;
+	padding: 5px 5px ;
+	border: 2px solid black;
+}
+.spc img{
+	width: 90%;
+	padding: 5px;
+	border: 2px solid black;
+	align-items: center;
+	margin-left: 50px;
+}
+.abt p{
+	color: black;
+	margin: 50px;
+}
+
+
+
+.admission{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0px;
+	position: relative;
+}
+.admission:before{
+	content: "";
+	position: absolute; 
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-image: linear-gradient( 330deg, #16c9f6 55%, #fff 0%);
+}
+
+
+.contact section a{
+	border: 2px solid white;
+	color: white;
+}
+.contact section a:hover{
+	background-color: white;
+ 		color: #16c9f6;
+}
+.contact a{
+	border: 2px solid blue;
+ 	border-radius: 100px;
+ 	margin: 0px 5px;
+ 	font-weight: bold;
+ 	color: blue;
+ 	line-height: 15px;
+ 	padding: 12px;
+ 	}
+ 	.contact div a:hover{
+ 		background-color: blue;
+ 		color: white;
+ 		border-color: white; 
+ 		
+ 	}
+ 	.fbosc{
+ 		transform: translate(20%, 20%);
+ 	}
+ 	.contact section{
+ 		height: 200px;
+ 		background-color:#16c9f6;
+ 		color: white;
+ 	}
+
+ 	.footer{
+ 		width: 100%;
+ 		height: auto;
+ 		background-color: #16c9f6;
+ 		margin-top: 100px !important;
+ 		text-align: center;
+ 		padding-bottom: 40px;
+
+ 	}
+
+.footer h3 {
+	color: white;
+	text-transform: capitalize;
+	font-size: 1.2rem!important;
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	text-shadow: 0 2px 5px rgb(0, 0, 0,0.4)
+}
+.footer p{
+	color: white;
+	font-size: 15px;
+}
+.footer li a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer li {
+	list-style-type: none;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: white;
+	background : #00abff;
+	padding: 10px;
+	border-radius: 10px;
+}
+#myBtn:hover{
+	background-color: #606060;
+}
+
+
+
+
+@media(max-width: 768px){
+	.header{
+		width: 100%;
+		height: auto;
+	}
+}
